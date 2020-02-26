@@ -1,0 +1,239 @@
+.forside {
+  background: url(exp/MSH-4-0016.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	
+	width: auto;
+	margin-left:30px;
+    top: 25px;
+}
+
+
+.bakgrunnsfarge {
+ background-color:#FBF7F2;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	
+}
+.hyperlink {
+	overflow: hidden;
+	background-color:#FBF7F2;
+    position: fixed;
+	top:0;
+	width:100%
+}
+
+.hyperlink a {
+	float:left;
+	display:block;
+	color:black;
+	text-align:center;
+	padding: 10px 10px;
+	text-decoration:none;
+}
+
+.hyperlink a:hover {
+	background:#F5ECE0;
+	color:black;
+}
+
+.linkfrem {
+    font-family:"bubbler-one", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: slategrey;
+
+}
+.link {
+    font-family:"bubbler-one", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+    color: black;
+	width:auto;
+	margin-left:10px;
+    top: 25px;
+}
+
+
+.høyre {
+	font-family: "bubbler-one", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: black;
+	position: fixed;
+	width:auto;
+	margin-right: 20px;
+	margin-left: 1080px;
+	top:25px;
+}
+
+p {
+    font-family:"bubbler-one", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+    color: grey;
+    text-align:inherit;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.infotekst {
+    font-family:"bubbler-one", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+	font-size: 12px;
+}
+
+.tekst {
+	font-family: "jeff-script", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50vw;
+	font-size: 1.2vw;
+}
+
+.tekststående {
+	font-family:"bubbler-one", sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	font-style: normal;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35vw;
+}
+
+.foto {
+  width: 50vw;
+  border-radius: 1px;
+  image-orientation: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+
+.ståendefoto {
+  width: 35vw;
+  border-radius: 4px;
+  image-orientation: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+}
+
+.video {
+  width: 50vw;
+  border-radius: 1px;
+  image-orientation: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 180px;
+}
+
+.ekstra {
+	color: black;
+    text-align: center;
+	position:fixed;
+	width:100%;
+    bottom: 0;
+	font-size:1vw;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
